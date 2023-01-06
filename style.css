@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex input,button{
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flex input{
+  background-color: rgb(164, 164, 164);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.flex button{
+  background-color: tomato;
+  border-radius: 0px 10px 10px 0px;
+}
