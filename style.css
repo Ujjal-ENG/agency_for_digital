@@ -95,7 +95,7 @@
   align-items: center;
 }
 
-.service-left{
+.service-left {
   width: 50%;
 }
 .service-btn {
@@ -168,7 +168,6 @@
 .service-up {
   display: flex;
   justify-content: space-around;
-
 }
 .service-down {
   display: flex;
@@ -188,11 +187,11 @@
 
 /* Design the Appoinment section */
 
-.appoinment-section{
+.appoinment-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F52C2C;
+  background-color: #f52c2c;
   width: 75%;
   padding: 20px;
   margin: auto;
@@ -200,7 +199,7 @@
   margin-top: -80px;
 }
 
-.left-side{
+.left-side {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +207,7 @@
   margin-right: 10px;
 }
 
-.left-side .phone-num{
+.left-side .phone-num {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -216,14 +215,65 @@
   text-transform: uppercase;
 }
 
-.btn-apoinment{
+.btn-apoinment {
   font-weight: normal;
   background-color: rgb(247, 247, 247);
   color: red;
   border-radius: 35px;
 }
 
-.apoin-description{
+.apoin-description {
   width: 450px;
   font-size: 20px;
+}
+
+/* Blogs section*/
+.blog-section {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-description {
+  font-size: 22px;
+  width: 40%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.blog {
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 11px 25px 1px #000;
+  border-radius: 10px;
+}
+.blog img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px 5px 0 0;
+}
+.container-blog {
+  padding: 22px 26px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogs-card {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
