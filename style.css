@@ -1,23 +1,84 @@
-.flex {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Design the Navbar section */
+.nav-container {
+  background-color: #d5d2d2;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.flex input,button{
-  border: none;
-  outline: none;
-  padding: 20px;
-  font-size: 20px;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo-title {
+  display: inline-block;
+  color: rgb(0, 98, 255);
+}
+.menu-container {
+  display: flex;
+}
+.menu-container li {
+  font-size: 23px;
+  padding: 30px;
   font-weight: bold;
 }
 
-.flex input{
-  background-color: rgb(164, 164, 164);
-  border-radius: 10px 0px 0px 10px;
+/* Design the Banner section */
+
+.banner-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
-.flex button{
-  background-color: tomato;
-  border-radius: 0px 10px 10px 0px;
+.description{
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.title-banner {
+  font-size: 85px;
+}
+
+.title-banner span {
+  color: rgba(255, 0, 0, 0.821);
+}
+
+.btn{
+  padding: 15px 35px;
+  font-size: 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.btn1{
+  background-color: red;
+}
+
+
+.banner-details {
 }
