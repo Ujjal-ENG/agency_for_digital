@@ -5,12 +5,18 @@
   text-decoration: none;
 }
 
+nav {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
 /* Design the Navbar section */
 .nav-container {
   background-color: #d5d2d2;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo-container {
@@ -286,9 +292,9 @@ footer {
   height: 70vh;
   background-image: url("./asset/image/footer-bg.png"),
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
-  
-    background-blend-mode: overlay;
-  }
+
+  background-blend-mode: overlay;
+}
 
 .footer-container {
   color: white;
